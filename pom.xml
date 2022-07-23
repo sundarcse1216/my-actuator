@@ -8,9 +8,9 @@
         <version>2.7.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.bzones</groupId>
     <artifactId>actuator</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>actuator</name>
     <description>Actuator project for Spring Boot</description>
     <properties>

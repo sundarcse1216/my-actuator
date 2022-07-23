@@ -1,4 +1,4 @@
-package com.example.actuator;
+package com.bzones.actuator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

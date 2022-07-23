@@ -1,4 +1,4 @@
-package com.example.actuator;
+package com.bzones.actuator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,24 +1,25 @@
-package com.example.actuator.custom;
+package com.bzones.actuator.custom;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.stereotype.Component;
 
+
 @Component
-public class ServiceAHealthIndicator implements HealthIndicator {
-    private final String service = "Service A";
+public class ServiceBHealthIndicator implements HealthIndicator {
+
+    private final String service = "Service B";
 
     @Override
     public Health health() {
-        if (isRunningServiceA()) {
-            return Health.up().withDetail(service, "Available").build();
-        } else {
+        if (!isRunningServiceB()) {
             return Health.down().withDetail(service, "Not Available").build();
         }
+        return Health.up().withDetail(service, "Available").build();
     }
 
-    private Boolean isRunningServiceA() {
-        Boolean isRunning = true;
+    private Boolean isRunningServiceB() {
+        Boolean isRunning = false;
         // Logic Skipped
 
         return isRunning;

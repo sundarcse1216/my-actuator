@@ -1,4 +1,4 @@
-package com.example.actuator.controller;
+package com.bzones.actuator.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
